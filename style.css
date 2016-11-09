@@ -1,0 +1,170 @@
+/*font-family: 'Poppins', sans-serif;*/
+
+body {
+	margin: 0px;
+	background-color: #e0e0e0;
+
+	font-family: 'Poppins', sans-serif;
+	font-weight:500;
+	line-height: 1.44;
+}
+
+header {
+		background: url(IMG/bandeau1.png) repeat-x center;
+		height: 100px;
+		margin: 0px;
+		padding:0px;
+		background-size: cover;
+		/*background-color: red;*/
+
+}
+
+
+nav {
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	font-weight:300;
+	text-align: center;
+
+}
+
+.nav {
+	padding: 0;
+	margin:0;
+	list-style: none;
+	
+}
+
+.nav--ul {
+	padding-left: 0px;
+}
+
+.nav__el {
+	display: inline;
+	margin-left: 100px;
+
+}
+
+.section--main{
+
+	background: url(IMG/triangle-particules.png) no-repeat 10% top, 
+	url(IMG/triangle-particules1.png) no-repeat 90% top;
+
+}
+.container {
+	margin: 0 auto;
+	width: 556px;
+	min-height: 523px;
+	background: url(IMG/background-chat.png) no-repeat center;
+}
+
+p {
+	padding-top: 170px;
+}
+
+
+nav li {
+	background: url(IMG/onglet-bandeau.png) no-repeat center;
+	padding: 20px;
+	opacity: .6;
+}
+.nav__el a {
+	color: #333333;
+	text-decoration: none;
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	opacity: .6;
+}
+
+.nav__el--actif {
+	opacity: 1;
+}
+
+.nav__el a:hover {
+	opacity: 1;
+}
+
+nav li:hover {
+	opacity: 1;
+}
+
+
+
+.vcard {
+	
+	padding: 200px 600px 0 600px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.up {
+	font-size: 38px;
+	color: #D88860;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+
+
+
+.center {
+	text-align: center;
+	margin-top: 60px;
+}
+
+
+.cv {
+	
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #333333;
+	padding: 5px 30px 5px 30px;
+	font-weight:300;
+	background-position: center;
+	background: url(IMG/onglet-cv.png) no-repeat;
+	opacity: .6;
+
+}
+
+.cv:hover {
+	opacity: 1;
+}
+
+.footer {
+	background-color: #333333;
+	bottom: 0;
+	width: 100%;
+}
+
+.reseau {
+	margin: auto;
+	margin-top: 60px;
+	text-align: center;
+	list-style: none;
+
+}
+
+.reseau__el {
+	display: inline-block;
+	margin:20px;
+}
+
+.behance:hover {
+	background: url(IMG/behance-blanc.png) no-repeat;
+}
+
+.vimeo:hover {
+	background: url(IMG/vimeo-blanc.png) no-repeat;
+}
+
+.twitter:hover {
+	background: url(IMG/twitter-blanc.png) no-repeat;
+}
+
+.github:hover {
+	background: url(IMG/github-blanc.png) no-repeat;
+}
+
+
+
